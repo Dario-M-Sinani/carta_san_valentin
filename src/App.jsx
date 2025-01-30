@@ -12,7 +12,7 @@ export function App() {
     <div className="Centradou">
       {showAbout ? <About /> : <Home />}
       <button onClick={handleButtonClick}>
-        {showAbout ? 'volver pa que o que' : 'Apreta aqui pofa'}
+        {showAbout ? 'Volver pa que o que' : 'Apreta aqui pofa'}
       </button>
     </div>
   );
@@ -21,7 +21,7 @@ export function App() {
 function Home() {
   return (
     <header>
-      <span>La verdad no se bien el hecho de que talvez es basico por que lo debiste ver por alguna red social</span><br/>
+      <span>La verdad no se bien el hecho de que talvez es básico por que lo debiste ver por alguna red social</span><br />
       <span>solo quisiera que pues se vea bonito</span>
     </header>
   );
@@ -36,13 +36,13 @@ function About() {
 
       <main>
         <div>
-          <img src="public/images/cupon.jpg" alt="Imagen 1" />
+          <img src="/images/cupon.jpg" alt="Imagen 1" />
         </div>
         <div>
-          <img src="public/images/img6.jpeg" alt="Imagen 2" />
+          <img src="/images/img6.jpeg" alt="Imagen 2" />
         </div>
         <div>
-          <img src="public/images/img8.jpeg" alt="Imagen 3" />
+          <img src="/images/img8.jpeg" alt="Imagen 3" />
         </div>
       </main>
 
@@ -57,25 +57,25 @@ function About() {
 
       <footer>
         <div>
-          <img src="public/images/img2.jpg" alt="Imagen 4" />
+          <img src="/images/img2.jpg" alt="Imagen 4" />
           <p>Eres mi luz</p>
         </div>
         <div>
-          <img src="public/images/img1.jpg" alt="Imagen 5" />
+          <img src="/images/img1.jpg" alt="Imagen 5" />
           <p>Mi razón</p>
         </div>
         <div>
-          <img src="public/images/img3.jpg" alt="Imagen 6" />
+          <img src="/images/img3.jpg" alt="Imagen 6" />
           <p>Mi todo</p>
         </div>
         <div>
-          <img src="public/images/img5.jpeg" alt="Imagen 7" />
-          <p>Nunca olvidare este </p>
-          <p>momento ese apoyo TE AMO</p>
+          <img src="/images/img5.jpeg" alt="Imagen 7" />
+          <p>Nunca olvidaré este</p>
+          <p>momento, ese apoyo. TE AMO</p>
         </div>
       </footer>
     </div>
   );
 }
 
-export default About;
+export default App;
