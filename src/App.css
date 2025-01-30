@@ -15,12 +15,10 @@
   }
 }
 
-/* Styling for the Home page */
 .Centradou header {
   background-color: transparent; /* Ensure no background conflicts */
 }
 
-/* Styling for the card */
 .message {
   margin-top: 50px;
   display: flex;
@@ -38,7 +36,6 @@
   overflow: hidden; /* Evita que la animación se salga del contenedor */
 }
 
-/* Header styling */
 .message header {
   margin-top: 20px;
   animation: moveHeader 5s infinite alternate; /* Animación de izquierda a derecha */
@@ -62,7 +59,6 @@
   margin-bottom: 20px; /* Espacio inferior */
 }
 
-/* Main styling */
 .message main {
   display: flex;
   justify-content: space-around; /* Espacio entre imágenes */
@@ -85,7 +81,6 @@
   font-style: italic; /* Texto en cursiva */
 }
 
-/* Footer styling */
 .message footer {
   display: flex;
   justify-content: space-around; /* Espacio entre imágenes */
@@ -106,8 +101,6 @@
   margin-top: 10px; /* Espacio superior */
 }
 
-
-/* Button styling */
 button {
   margin-top: 20px;
   padding: 10px 20px;

@@ -30,25 +30,22 @@ function Home() {
 function About() {
   return (
     <div className="message">
-      {/* Header */}
       <header>
         <h1>TE AMO</h1>
       </header>
 
-      {/* Main */}
       <main>
         <div>
-          <img src="src/assets/cupon.jpg" alt="Imagen 1" />
+          <img src="public/images/cupon.jpg" alt="Imagen 1" />
         </div>
         <div>
-          <img src="src/assets/img6.jpeg" alt="Imagen 2" />
+          <img src="public/images/img6.jpeg" alt="Imagen 2" />
         </div>
         <div>
-          <img src="src/assets/img8.jpeg" alt="Imagen 3" />
+          <img src="public/images/img8.jpeg" alt="Imagen 3" />
         </div>
       </main>
 
-      {/* Frase poética */}
       <main>
         <p>
           Sheccid, si quieres ser mi San Valentín,<br />
@@ -58,22 +55,21 @@ function About() {
         </p>
       </main>
 
-      {/* Footer */}
       <footer>
         <div>
-          <img src="src/assets/img2.jpg" alt="Imagen 4" />
+          <img src="public/images/img2.jpg" alt="Imagen 4" />
           <p>Eres mi luz</p>
         </div>
         <div>
-          <img src="src/assets/img1.jpg" alt="Imagen 5" />
+          <img src="public/images/img1.jpg" alt="Imagen 5" />
           <p>Mi razón</p>
         </div>
         <div>
-          <img src="src/assets/img3.jpg" alt="Imagen 6" />
+          <img src="public/images/img3.jpg" alt="Imagen 6" />
           <p>Mi todo</p>
         </div>
         <div>
-          <img src="src/assets/img5.jpeg" alt="Imagen 7" />
+          <img src="public/images/img5.jpeg" alt="Imagen 7" />
           <p>Nunca olvidare este </p>
           <p>momento ese apoyo TE AMO</p>
         </div>
