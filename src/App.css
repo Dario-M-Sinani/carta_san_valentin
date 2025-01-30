@@ -1,0 +1,139 @@
+
+
+.Centradou {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: 'Eurostile', sans-serif; /* Aplicar la fuente personalizada */
+  color: black; /* Color del texto */
+  border-radius: 15px;
+  text-align: center; /* Centrar el texto */
+  & .letering{
+    color: #fdadc7;
+  }
+}
+
+/* Styling for the Home page */
+.Centradou header {
+  background-color: transparent; /* Ensure no background conflicts */
+}
+
+/* Styling for the card */
+.message {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  background-image: url('./assets/fondo2.jpg'); /* Background image */
+  background-size: cover; /* Ensure the image covers the entire div */
+  background-position: center; /* Center the background image */
+  color: black; /* Black text */
+  height: 900px; /* New height */
+  width: 800px; /* New width */
+  border: 1px solid black;
+  text-align: center; /* Center text */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px; /* Add some padding */
+  overflow: hidden; /* Evita que la animación se salga del contenedor */
+}
+
+/* Header styling */
+.message header {
+  margin-top: 20px;
+  animation: moveHeader 5s infinite alternate; /* Animación de izquierda a derecha */
+}
+
+@keyframes moveHeader {
+  0% {
+    transform: translateX(-100%); /* Comienza fuera de la pantalla a la izquierda */
+  }
+  100% {
+    transform: translateX(100%); /* Termina fuera de la pantalla a la derecha */
+  }
+}
+
+.message header h1 {
+  font-family: 'Eurostile', sans-serif; /* Fuente personalizada */
+  font-size: 48px; /* Tamaño grande */
+  text-transform: uppercase; /* Mayúsculas */
+  color: #fdadc7; /* Color del texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra */
+  margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Main styling */
+.message main {
+  display: flex;
+  justify-content: space-around; /* Espacio entre imágenes */
+  align-items: center;
+  margin-top: 40px;
+}
+
+.message main img {
+  height: 150px; /* Altura de la imagen */
+  border-radius: 10px; /* Bordes redondeados */
+  object-fit: cover; /* Ajustar la imagen */
+}
+
+.message main p {
+  font-family: 'Eurostile', sans-serif; /* Fuente personalizada */
+  font-family: 'Georgia', serif; /* Fuente poética */
+  font-size: 24px; /* Tamaño de la frase */
+  color: black; /* Color del texto */
+  margin-top: 20px; /* Espacio superior */
+  font-style: italic; /* Texto en cursiva */
+}
+
+/* Footer styling */
+.message footer {
+  display: flex;
+  justify-content: space-around; /* Espacio entre imágenes */
+  align-items: center;
+  margin-top: 40px;
+}
+
+.message footer img {
+  height: 200px; /* Altura de la imagen */
+  border-radius: 10px; /* Bordes redondeados */
+  object-fit: cover; /* Ajustar la imagen */
+}
+
+.message footer p {
+  font-family: 'Eurostile', sans-serif; /* Fuente personalizada */
+  font-size: 14px; /* Tamaño pequeño */
+  color: black; /* Color del texto */
+  margin-top: 10px; /* Espacio superior */
+}
+
+
+/* Button styling */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+ background-color: #fdadc7;
+ font-family: 'Eurostile', sans-serif; /* Aplicar la fuente personalizada */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #fdadc7; /* A slightly darker shade on hover */
+}
+
+
+@font-face {
+  font-family: 'Eurostile'; /* Nombre que le darás a la fuente */
+  src: url('./fonts/Eurostile.ttf') format('truetype'); /* Ruta al archivo de la fuente */
+  font-weight: normal; /* Peso de la fuente (normal, bold, etc.) */
+  font-style: normal; /* Estilo de la fuente (normal, italic, etc.) */
+}
+
+.custom-font {
+  font-family: 'Eurostile', sans-serif; /* Usa la fuente personalizada */
+  font-size: 24px; /* Tamaño de la fuente */
+  color: #333; /* Color de la fuente */
+}
